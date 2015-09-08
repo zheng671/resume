@@ -78,7 +78,7 @@ gulp.task('images', ['clean-images'], function () {
 
     return gulp
         .src(config.images)
-        .pipe(gulp.dest(config.build + 'asset/img'));
+        .pipe(gulp.dest(config.build + 'asset/image'));
 });
 
 /**
