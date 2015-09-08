@@ -23,7 +23,7 @@
         fonts: ['./bower_components/fontawesome/fonts/**/*.*', './bower_components/bootstrap-css/fonts/**/*.*'],
         html: [build + 'index.html'],
         htmltemplates: [app + '**/*.html', component + '**/*.html'],
-        images: asset + 'img/**/*.*',
+        images: asset + 'image/**/*.*',
         index: src + 'index.html',
         js: [
             app + '**/*.module.js',
