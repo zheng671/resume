@@ -1,0 +1,21 @@
+<div class="block md" ng-repeat="item in vm.frontend">
+	<div class="content center blue" style="opacity: {{(item.value+100)/200}}">
+		<h3>{{item.key}}</h3>
+		<div round-progress max="100" current="item.value" color="#45ccce" bgcolor="#eaeaea" radius="20" stroke="5" rounded="true" responsive="false" duration="800" animation="easeInOutQuart"></div>
+	</div>
+</div>
+
+<div class="block md" ng-repeat="item in vm.backend">
+	<div class="content center blue" style="opacity: {{(item.value+100)/200}}">
+		<h3>{{item.key}}</h3>
+		<div round-progress max="100" current="item.value" color="#45ccce" bgcolor="#eaeaea" radius="20" stroke="5" rounded="true" responsive="false" duration="800" animation="easeInOutQuart"></div>
+	</div>
+</div>
+
+<div class="block md" ng-repeat="item in vm.software">
+	<div class="content center blue" style="opacity: {{(item.value+100)/200}}">
+		<h3>{{item.key}}</h3>
+		<div round-progress max="100" current="item.value" color="#45ccce" bgcolor="#eaeaea" radius="20" stroke="5" rounded="true" responsive="false" duration="800" animation="easeInOutQuart"></div>
+	</div>
+</div>
+
