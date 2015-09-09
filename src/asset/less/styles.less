@@ -24,36 +24,29 @@
 	}
 	.block.xl{
 		width: auto !important;
-		max-width: 600px !important;
-		margin-right: 20px !important;
 	}
 	.sidebar{
 		width: 100% !important;
-		height: 150px !important;
-		padding: 0 !important;
-		z-index: 100;
-		.info, .contact{
-			width: 50%;
-			float: left;
+		height: 250px !important;
+		position: relative !important;
+		.contact{
 			position: static;
+			display: inline-block;
+		}
+		h4{
+			font-size: 14px;
 		}
 	}
 	.main{
 		margin: auto !important;
 		max-width: 600px;
-		margin-top: 150px !important;
 	}
 }
 
 .contact {
 	position: absolute;
-	bottom: 0px;
-	width: 100%;
-}
-
-ul li{
-    line-height: 1.5em;
-    margin-bottom: 0.5em;
+	bottom: 0;
+	text-align: left;
 }
 
 .center{
@@ -72,6 +65,7 @@ ul li{
     width: 300px;
     height: 100%;
 	padding: 10px;
+	text-align: center;
 	background-color: @color-1;
 	color: @font-color-1;
 	a{
@@ -123,8 +117,12 @@ ul li{
 		padding: 10px;
 		width: 100%;
 	}
-	ul li{
-	    font-size: 18px;
+	ul{
+		width: 80%;
+	 	> li{
+			text-overflow: ellipsis;
+		    font-size: 18px;
+		}
 	}
 }
 
