@@ -17,6 +17,22 @@
             .state('default.index', {
 				url:'/',
                 templateUrl: 'app/main/main.html'
+            })
+            .state('default.working', {
+                url:'/working',
+                templateUrl: 'app/section/working.html'
+            })
+            .state('default.education', {
+                url:'/education',
+                templateUrl: 'app/section/education.html'
+            })
+            .state('default.skill', {
+                url:'/skill',
+                templateUrl: 'app/section/skill.html'
+            })
+            .state('default.project', {
+                url:'/project',
+                templateUrl: 'app/section/project.html'
             });
         $urlRouterProvider.otherwise('/');
     }

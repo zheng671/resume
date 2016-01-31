@@ -1,24 +1,53 @@
-<section id="working" class="block-group-container lg">
+<!--
+<section id="education" class="block-group-container lg">
 	<div class="block-group-title">
 		{{'工作经验' | translate}}
 	</div>
-	<div class="block-group" ng-include="'app/main/working.html'"></div>
+	<div class="block-group" ng-include="'app/section/working.html'"></div>
 </section>
-<section id="project" class="block-group-container">
+<section id="education" class="block-group-container">
 	<div class="block-group-title">
 		{{'项目' | translate}}
 	</div>
-	<div class="block-group" ng-include="'app/main/project.html'"></div>
+	<div class="block-group" ng-include="'app/section/project.html'"></div>
 </section>
-<section id="skill" class="block-group-container">
+<section id="education" class="block-group-container">
 	<div class="block-group-title">
 		{{'技能' | translate}}
 	</div>
-	<div class="block-group" ng-include="'app/main/skill.html'"></div>
+	<div class="block-group" ng-include="'app/section/skill.html'"></div>
 </section>
 <section id="education" class="block-group-container">
 	<div class="block-group-title">
 		{{'教育' | translate}}
 	</div>
-	<div class="block-group" ng-include="'app/main/education.html'"></div>
+	<div class="block-group" ng-include="'app/section/education.html'"></div>
 </section>
+-->
+<div class="center padding-400">
+	<section class="block " ui-sref="default.working">
+		<span class="fa-stack fa-5x">
+		  <i class="fa fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+		</span>
+		<p style="font-size:16px;">工作经验</p>
+	</section><section class="block " ui-sref="default.project">
+		<span class="fa-stack fa-5x">
+		  <i class="fa fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+		</span>
+		<p style="font-size:16px;">项目</p>
+	</section><section class="block " ui-sref="default.education">
+		<span class="fa-stack fa-5x">
+		  <i class="fa fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+		</span>
+		<p style="font-size:16px;">教育</p>
+	</section><section class="block " ui-sref="default.skill">
+		<span class="fa-stack fa-5x">
+		  <i class="fa fa-circle fa-stack-2x"></i>
+		  <i class="fa fa-star fa-stack-1x fa-inverse"></i>
+		</span>
+		<p style="font-size:16px;">技能</p>
+	</section>
+</div>

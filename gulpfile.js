@@ -293,7 +293,7 @@ gulp.task('clean-styles', function(done) {
 gulp.task('clean-code', function(done) {
     var files = [].concat(
         config.temp + '**/*.js',
-        config.build + 'js/**/*.js',
+        config.build + 'scripts/**/*.js',
         config.build + '**/*.html'
     );
     clean(files, done);

@@ -1,7 +1,12 @@
+<div id="background"></div>
 <div id="wrapper">
+	
+	<div class="header" ng-include="'app/layout/header.html'"></div>
 
-	<div class="sidebar" ng-include="'app/layout/sidebar.html'"></div>
+	<!--<div class="sidebar" ng-include="'app/layout/sidebar.html'"></div>-->
 	
 	<div class="main" ui-view></div>
-
+	
+	<div class="footer" ng-include="'app/layout/footer.html'"></div>
+	
 </div>

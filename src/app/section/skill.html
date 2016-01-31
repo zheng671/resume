@@ -1,0 +1,37 @@
+<div style="max-width:500px;">
+	<div style="margin-bottom:100px;">
+		<span style="background-color:#999;color:#eee;font-size:25px;line-height:30px;">FRONT END</span>
+		<div ng-repeat="item in vm.frontend"> 
+				<h3>{{item.key}}</h3>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{item.value}}%;">
+				    <span class="sr-only">60% Complete</span>
+				  </div>
+				</div>
+		</div>
+	</div>
+	<div style="margin-bottom:100px;">
+		<span style="background-color:#999;color:#eee;font-size:25px;line-height:30px;">BACK END</span>
+		<div ng-repeat="item in vm.backend">
+						<h3>{{item.key}}</h3>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{item.value}}%;">
+				    <span class="sr-only">60% Complete</span>
+				  </div>
+				</div>
+		</div>
+	</div>
+	
+	<div style="margin-bottom:100px;">
+		<span style="background-color:#999;color:#eee;font-size:25px;line-height:30px;">SOFTWARE</span>
+		<div ng-repeat="item in vm.software">
+						<h3>{{item.key}}</h3>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{item.value}}%;">
+				    <span class="sr-only">60% Complete</span>
+				  </div>
+				</div>
+		</div>
+	</div>
+	
+</div>
